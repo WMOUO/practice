@@ -1,0 +1,1 @@
+print(sum([eval(_) for _ in input().split(' ') if _]))

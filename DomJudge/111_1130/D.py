@@ -1,0 +1,5 @@
+a = int(input())
+n = set([int(_) for _ in input().split(' ') if _])
+r = sorted(list(n))
+print(len(r))
+print(' '.join(map(str,r)))

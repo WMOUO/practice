@@ -1,0 +1,7 @@
+a = eval(input())
+a = eval(f'{a/60}')
+b = eval(input())
+b = eval(f'{b/3600}')
+c = eval(input())
+c = eval(f'{c/1.6}')
+print(f'Speed = {c/(a+b):.1f}')

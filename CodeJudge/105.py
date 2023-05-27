@@ -1,0 +1,6 @@
+a =eval(input())
+b = eval(input())
+print(f"Height = {a:.2f}")
+print(f"Width = {b:.2f}")
+print(f"Perimeter = {(a+b)*2:.2f}")
+print(f'Area = {a*b:.2f}')
